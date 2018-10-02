@@ -28,14 +28,14 @@ window.onload = function(){
         try{
           //What we do here is to use eval to get the strign and compute it
           if(answer.innerHTML == ''){
-            answer.innerHTML = 'WRITE SOMETHING ASSHOLE!';
+            answer.innerHTML = 'WRITE SOMETHING!';
             setTimeout(clear => answer.innerHTML = '',1500);
           }else{
             answer.innerHTML = eval(answer.innerHTML);
           }
         }catch(e){
           var prev = answer.innerHTML;
-          answer.innerHTML = 'HEY! LITTLE CUNT';
+          answer.innerHTML = 'HEY! LITTLE FREAK';
           setTimeout(back => answer.innerHTML = prev,1000);
         }
       }else{
